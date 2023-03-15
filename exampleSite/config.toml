@@ -1,6 +1,6 @@
 ################################# Default configuration ###################
 baseURL = "https://demo.gethugothemes.com/meghna/examplesite/"
-title = "Meghna"
+title = "Franchise Elegance"
 theme = "meghna-hugo"
 # post pagination
 paginate = "6"
@@ -42,63 +42,20 @@ link = "plugins/google-map/map.js"
 
 ################### English Navigation ########################
 [[Languages.en.menu.main]]
-name = "about"
-url = "#about"
-weight = 1
-
-[[Languages.en.menu.main]]
 name = "services"
 url = "#services"
 weight = 2
 
 [[Languages.en.menu.main]]
-name = "portfolio"
-url = "#portfolio"
-weight = 3
+name = "About Us"
+url = "#about"
+weight = 1
 
-[[Languages.en.menu.main]]
-name = "team"
-url = "#team"
-weight = 4
-
-[[Languages.en.menu.main]]
-name = "pricing"
-url = "#pricing"
-weight = 5
-
-[[Languages.en.menu.main]]
-name = "blog"
-url = "#blog"
-weight = 6
 
 [[Languages.en.menu.main]]
 name = "contact"
 url = "#contact"
 weight = 7
-
-
-[[Languages.en.menu.main]]
-name = "Dropdown"
-weight = 7
-hasChildren = true
-
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 1"
-url = "#"
-weight = 1
-
-[[Languages.en.menu.main]]
-parent = "Dropdown"
-name = "Dropdown 2"
-url = "#"
-weight = 2
-
-[[Languages.en.menu.main]]
-name = "themefisher"
-url = "https://themefisher.com/"
-weight = 8
-
 
 ################### French Navigation ########################
 [[Languages.fr.menu.main]]
